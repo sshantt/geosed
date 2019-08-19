@@ -49,7 +49,11 @@
 
 geo_sed <- function(coordinate_matrix) {
 
-    c_hull_points <- coordinate_matrix[chull(coordinate_matrix), ]
+    c_hull_points <- coordinate_matrix[chull(coordinate_matrix), , drop = FALSE]
+
+    if(nrow(c_hull_points) <= 2) {
+        return(geo_trivial_circle(c_hull_points))
+    }
 
     possible_combinations <-
         lapply(
