@@ -1,12 +1,12 @@
 Package: geosed
 Type: Package
 Title: Smallest Enclosing Disc for Latitude and Longitude Points
-Version: 0.1.0
+Version: 0.1.1
 Date: 2019-08-17
 Author: Shant Sukljian <asshtnt@gmail.com>
 Maintainer: Shant Sukljian <asshtnt@gmail.com>
 Description: 
-    The purpose of the functions in this package is to find the smallest circle that contains all longitude and latitude input points. From the generated center and radius, variable side polygons can be created, navigation based on bearing and distance can be applied, and more.
+    Find the smallest circle that contains all longitude and latitude input points. From the generated center and radius, variable side polygons can be created, navigation based on bearing and distance can be applied, and more. Based on a modified version of Welzl's algorithm for smallest circle. Distance calculatons are based on the haversine formula. Calculations for distance, midpoint, bearing and more are derived from https://www.movable-type.co.uk.
 Imports: grDevices
 License: MIT + file LICENSE
 Encoding: UTF-8
