@@ -11,6 +11,9 @@ geo_trivial_circle(coordinate_matrix, ...)
 
 \item{...}{`alternative` argument to be used when calling \code{\link{geo_midpoint}}}
 }
+\value{
+Returns a list of three elements named radius, center and making. Radius contains a single value representing the circle radius. Center contains a vector of length 2 representing the circle center latitude and longitude. Making contains a matrix of the latitude and longitude points were used as the coordinate_matrix argument.
+}
 \description{
 Generates a center point and radius that represent the smallest circle that contains up to three input points
 }

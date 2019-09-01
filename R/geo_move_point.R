@@ -6,6 +6,7 @@
 #' @param bearing The angle relative to north to move towards
 #' @param distance The distance in kilometers to move away from the origin point
 #'
+#' @return Returns a vector of length 2 containing a latitude and longitude point.
 #'
 #' @author Shant Sukljian
 #' @seealso \code{\link{geo_sed}} \code{\link{geo_point_dist}}

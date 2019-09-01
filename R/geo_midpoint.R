@@ -5,6 +5,7 @@
 #' @param coordinate_matrix A matrix of latitude and longitude columns and up to three rows
 #' @param alternative Whether to use alternative line creation method. Could be needed when nearly inverse angles cause intersections to be ambiguous.
 #'
+#' @return Returns a vector of length 2 containing a latitude and longitude point.
 #'
 #' @author Shant Sukljian
 #' @seealso \code{\link{geo_sed}} \code{\link{geo_point_dist}}

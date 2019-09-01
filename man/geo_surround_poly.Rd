@@ -13,6 +13,9 @@ geo_surround_poly(coordinates, distance, sides)
 
 \item{sides}{Number of polygon sides}
 }
+\value{
+Returns a matrix of latitude and longitude points.
+}
 \description{
 Generates a collection of points that are equidistant to the center coordinates given and are distributed equally around the center
 }

@@ -11,6 +11,9 @@ geo_point_dist(coordinate_matrix, matrix = FALSE)
 
 \item{matrix}{Generates a matrix that shows/preseves the relationship between point combinations and the respective distance between them}
 }
+\value{
+An input matrix with two rows returns a vector of length 1 containing the calculated distance. If the matrix argument is set to FALSE and an input matrix with three rows is given as the coordinate_matrix argument a vector of length 3 containing the calculated distances is returned. If the matrix argument is set to TRUE and an input matrix with three rows is given as the coordinate_matrix argument a 3 by 3 matrix of distances is returned.
+}
 \description{
 Calculates the distance in kilometers between up to a combination of three latitude, longitude points
 }

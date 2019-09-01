@@ -9,6 +9,9 @@ geo_sed(coordinate_matrix)
 \arguments{
 \item{coordinate_matrix}{A matrix of latitude and longitude columns and any chosen number of rows to generate a smallest circle arround}
 }
+\value{
+Returns a list of three elements named radius, center and making. Radius contains a single value representing the circle radius. Center contains a vector of length 2 representing the circle center latitude and longitude. Making contains a matrix of the latitude and longitude points that lie on the final smallest circle circumference.
+}
 \description{
 Generates a center point and radius that represent the smallest circle that contains all input points
 }

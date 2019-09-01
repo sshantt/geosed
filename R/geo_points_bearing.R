@@ -4,6 +4,7 @@
 #'
 #' @param coordinate_pair A matrix of latitude and longitude columns and two rows of points
 #'
+#' @return A vector of length 1 containing a bearing
 #'
 #' @author Shant Sukljian
 #' @seealso \code{\link{geo_sed}} \code{\link{geo_point_dist}}

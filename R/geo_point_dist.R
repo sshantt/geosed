@@ -5,6 +5,8 @@
 #' @param coordinate_matrix A matrix of latitude and longitude columns and up to three rows of points
 #' @param matrix Generates a matrix that shows/preseves the relationship between point combinations and the respective distance between them
 #'
+#' @return An input matrix with two rows returns a vector of length 1 containing the calculated distance. If the matrix argument is set to FALSE and an input matrix with three rows is given as the coordinate_matrix argument a vector of length 3 containing the calculated distances is returned. If the matrix argument is set to TRUE and an input matrix with three rows is given as the coordinate_matrix argument a 3 by 3 matrix of distances is returned.
+#' 
 #' @author Shant Sukljian
 #' @seealso \code{\link{geo_sed}} \code{\link{geo_point_dist}}
 #' @keywords sed smallest enclosing disk circle geo latitude longitude

@@ -13,6 +13,9 @@ geo_move_point(coordinates, bearing, distance)
 
 \item{distance}{The distance in kilometers to move away from the origin point}
 }
+\value{
+Returns a vector of length 2 containing a latitude and longitude point.
+}
 \description{
 Creates a new latitude, longitude point based on an origin point, bearing and distance
 }

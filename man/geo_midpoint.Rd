@@ -11,6 +11,9 @@ geo_midpoint(coordinate_matrix, alternative = FALSE)
 
 \item{alternative}{Whether to use alternative line creation method. Could be needed when nearly inverse angles cause intersections to be ambiguous.}
 }
+\value{
+Returns a vector of length 2 containing a latitude and longitude point.
+}
 \description{
 Generates a latitude and longitude point that is equidistant to up to three latitude and longitude points
 }

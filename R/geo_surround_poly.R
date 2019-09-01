@@ -6,7 +6,7 @@
 #' @param distance Distance to move away from center for each bearing
 #' @param sides Number of polygon sides
 #'
-#'
+#' @return Returns a matrix of latitude and longitude points.
 #'
 #' @author Shant Sukljian
 #' @seealso \code{\link{geo_sed}} \code{\link{geo_point_dist}}

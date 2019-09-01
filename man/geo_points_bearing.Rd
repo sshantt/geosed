@@ -9,6 +9,9 @@ geo_points_bearing(coordinate_pair)
 \arguments{
 \item{coordinate_pair}{A matrix of latitude and longitude columns and two rows of points}
 }
+\value{
+A vector of length 1 containing a bearing
+}
 \description{
 Calculates the bearing angle in degrees between two latitude, longitude points
 }

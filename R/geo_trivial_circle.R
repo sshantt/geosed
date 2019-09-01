@@ -5,6 +5,8 @@
 #' @param coordinate_matrix A matrix of latitude and longitude columns and up to three rows
 #' @param ... `alternative` argument to be used when calling \code{\link{geo_midpoint}}
 #'
+#' @return Returns a list of three elements named radius, center and making. Radius contains a single value representing the circle radius. Center contains a vector of length 2 representing the circle center latitude and longitude. Making contains a matrix of the latitude and longitude points were used as the coordinate_matrix argument.
+#'
 #' @author Shant Sukljian
 #' @seealso \code{\link{geo_sed}} \code{\link{geo_point_dist}}
 #' @keywords sed smallest enclosing disk circle geo latitude longitude

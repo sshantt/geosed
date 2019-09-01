@@ -4,6 +4,7 @@
 #'
 #' @param coordinate_matrix A matrix of latitude and longitude columns and any chosen number of rows to generate a smallest circle arround
 #'
+#' @return Returns a list of three elements named radius, center and making. Radius contains a single value representing the circle radius. Center contains a vector of length 2 representing the circle center latitude and longitude. Making contains a matrix of the latitude and longitude points that lie on the final smallest circle circumference.
 #'
 #' @author Shant Sukljian
 #' @seealso \code{\link{geo_trivial_circle}} \code{\link{geo_point_dist}}
